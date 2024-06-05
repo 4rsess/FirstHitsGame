@@ -1,0 +1,4 @@
+repository "firstHitsGame@firstHitsGame@cloud"
+  path "/"
+    br "/main"
+    co "/main"
