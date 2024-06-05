@@ -15,11 +15,14 @@ public class Hero : MonoBehaviour
 
     public Transform attackPosition;
     public float attackRange;
+    public LayerMask enemy;
 
 
     private Rigidbody2D rb;
     private Animator animation;
     private SpriteRenderer sprite;
+
+    public static Hero Instance { get; set; }
 
     private States State
     {
@@ -34,6 +37,7 @@ public class Hero : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animation = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        Instance = this;
     }
 
     private void FixedUpdate()
@@ -43,12 +47,14 @@ public class Hero : MonoBehaviour
 
     private void Update()
     {
-        if (isGrounded) State = States.HeroAnimation;
+        if (isGrounded && !isAttacking) State = States.HeroAnimation;
 
-        if (Input.GetButton("Horizontal"))
+        if (Input.GetButton("Horizontal") && !isAttacking)
             Run();
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        if (isGrounded && Input.GetButtonDown("Jump") && !isAttacking)
             Jump();
+        if (Input.GetButtonDown("Fire1"))
+            Attack();
     }
 
     private void Run()
@@ -83,7 +89,46 @@ public class Hero : MonoBehaviour
             isAttacking = true;
             isRecharged = false;
 
+            StartCoroutine(AttackAnimation());
+            StartCoroutine(AttackCoolDown());
+
         }
+    }
+
+    private void OnAttack()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, enemy);
+
+        for (int i = 0; i < colliders.Length; i++)
+        {
+            colliders[i].GetComponent<AllEntity>().GetDamage();
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPosition.position, attackRange);
+    }
+
+    private IEnumerator AttackAnimation()
+    {
+        yield return new WaitForSeconds(0.4f);
+        isAttacking = false;
+    }
+
+    private IEnumerator AttackCoolDown()
+    {
+        yield return new WaitForSeconds(0.5f);
+        isRecharged = true;
+    }
+
+    public  void GetDamage()
+    {
+        livesCount -= 1;
+        Debug.Log(livesCount);
+
+        
     }
 
 }
