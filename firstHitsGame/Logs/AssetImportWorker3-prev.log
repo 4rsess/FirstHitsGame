@@ -15,7 +15,7 @@ D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51390
+54058
 Successfully changed project path to: D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
 D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13576] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 416333200 [EditorId] 416333200 [Version] 1048832 [Id] WindowsEditor(7,Misha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22316] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 2149556704 [EditorId] 2149556704 [Version] 1048832 [Id] WindowsEditor(7,Misha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13576] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 416333200 [EditorId] 416333200 [Version] 1048832 [Id] WindowsEditor(7,Misha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22316] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 2149556704 [EditorId] 2149556704 [Version] 1048832 [Id] WindowsEditor(7,Misha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 33.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,45 +70,45 @@ Initialize mono
 Mono path[0] = 'D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009853 seconds.
-- Loaded All Assemblies, in  0.472 seconds
+Registered in 0.008067 seconds.
+- Loaded All Assemblies, in  0.444 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
-Domain Reload Profiling: 787ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 757ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (157ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (150ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (316ms)
+	FinalizeReload (313ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (251ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (176ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (174ms)
 			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 787ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.786 seconds
-Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 6.46 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.901 seconds
-Domain Reload Profiling: 1686ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1768ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (26ms)
 	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (401ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (436ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (161ms)
 			ScanForSourceGeneratedMonoScriptInfo (25ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (901ms)
+	FinalizeReload (933ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (718ms)
+		SetupLoadedEditorAssemblies (744ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (586ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (595ms)
 			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.35 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (62.1 KB). Loaded Objects now: 4502.
+Unloading 65 unused Assets / (61.8 KB). Loaded Objects now: 4502.
 Memory consumption went from 142.1 MB to 142.0 MB.
-Total: 5.384700 ms (FindLiveObjects: 0.459200 ms CreateObjectMapping: 0.144400 ms MarkObjects: 4.625100 ms  DeleteObjects: 0.154800 ms)
+Total: 3.886300 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.106500 ms MarkObjects: 3.312000 ms  DeleteObjects: 0.132700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,607 +183,653 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24101.912576 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0033.png
-  artifactKey: Guid(942579afdc4802141be998b96529f802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0033.png using Guid(942579afdc4802141be998b96529f802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 30735.265975 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock1.prefab
+  artifactKey: Guid(6bc4f20031ab7a943b8123b5af05b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock1.prefab using Guid(6bc4f20031ab7a943b8123b5af05b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6e959e66c095481e1e2a278f6e737c00') in 0.121619 seconds
+ -> (artifact id: 'e52b4638f9ba846750c6bd52d538bf5c') in 0.119508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/WoodenSign.prefab
+  artifactKey: Guid(3f0733b56e08e8c4a852b694cbbc24a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/WoodenSign.prefab using Guid(3f0733b56e08e8c4a852b694cbbc24a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d2ef85743eae736e2878eedd6c4c8a8') in 0.017078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 18.088299 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png
+  artifactKey: Guid(66453c654294d2045aa5eb98e5ea9f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png using Guid(66453c654294d2045aa5eb98e5ea9f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd5252336fef01a416643b3527006734') in 0.332509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 30.219652 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_2.asset
+  artifactKey: Guid(e0a56004fa23af648ae8a7848967a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_2.asset using Guid(e0a56004fa23af648ae8a7848967a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6b5ef9686e94556870a8b62938a53f5') in 0.014028 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0032.png
-  artifactKey: Guid(7d6ae83eaac9ec748b0b9bd481322f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0032.png using Guid(7d6ae83eaac9ec748b0b9bd481322f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1d3beae4b0798a21cc998c27dc52dfd2') in 0.018803 seconds
+  Time since last request: 0.000695 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_5.asset
+  artifactKey: Guid(beeeae3d876addb4ab2eeffc361b2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_5.asset using Guid(beeeae3d876addb4ab2eeffc361b2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a607b9fa2983e70825008428c1be5816') in 0.011822 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0018.png
-  artifactKey: Guid(3a1d23cbaf36fce4aac962a747753c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0018.png using Guid(3a1d23cbaf36fce4aac962a747753c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1292cb7c94ae2b4294bd58530e365433') in 0.017629 seconds
+  Time since last request: 0.002945 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_8.asset
+  artifactKey: Guid(1a0c9f0f629898443a8c152ab8edbdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_8.asset using Guid(1a0c9f0f629898443a8c152ab8edbdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '190518a088248983ebce189c120dde86') in 0.011098 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0060.png
-  artifactKey: Guid(7cc1e56b02a181d4b9a40632b5a32a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0060.png using Guid(7cc1e56b02a181d4b9a40632b5a32a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd37069e09d98543b8b8175e9d1bda6df') in 0.019030 seconds
+  Time since last request: 0.007196 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_12.asset
+  artifactKey: Guid(87a79123959cde64f8e7a7501f739e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_12.asset using Guid(87a79123959cde64f8e7a7501f739e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23225f4c760aa350f7c33c9e585a5e77') in 0.012065 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0062.png
-  artifactKey: Guid(92ba351e717a1f84f9d9b4986cd75938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0062.png using Guid(92ba351e717a1f84f9d9b4986cd75938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b5158c11e8f067f64fd1675157fccab5') in 0.019792 seconds
+  Time since last request: 0.006676 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_16.asset
+  artifactKey: Guid(71ef291c9d7da194db9ac6e209ccb8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_16.asset using Guid(71ef291c9d7da194db9ac6e209ccb8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8296d3d221a068205b645c5640b98755') in 0.011134 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0024.png
-  artifactKey: Guid(e7acf1a7424c1b14c8b3bf5a3b43b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0024.png using Guid(e7acf1a7424c1b14c8b3bf5a3b43b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '87d1e10df1e4370699eb09379faa84ac') in 0.017904 seconds
+  Time since last request: 0.007189 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_20.asset
+  artifactKey: Guid(9aae0d442e2febd44a34a2d1810dada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_20.asset using Guid(9aae0d442e2febd44a34a2d1810dada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29db85f5c552e5f483a489bc112797d7') in 0.011295 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0061.png
-  artifactKey: Guid(e450614ac4c5d2b4db2a996efe52994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0061.png using Guid(e450614ac4c5d2b4db2a996efe52994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '56b01a5f97659ac4198a16e555b1d1da') in 0.018963 seconds
+  Time since last request: 0.008402 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_24.asset
+  artifactKey: Guid(aed93102cb427544cad9b131b20e1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_24.asset using Guid(aed93102cb427544cad9b131b20e1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce5207bcd1cac63ed2bdcbc8375684a1') in 0.010973 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0043.png
-  artifactKey: Guid(5af6403098514094196c5e5b17818a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0043.png using Guid(5af6403098514094196c5e5b17818a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3597cefcad0471ac78683c399bd443d7') in 0.019893 seconds
+  Time since last request: 0.003134 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_27.asset
+  artifactKey: Guid(d009e9c6c73202047b31255aefc60e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_27.asset using Guid(d009e9c6c73202047b31255aefc60e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38cba7153c5c2387f05da94333df406f') in 0.005538 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0009.png
-  artifactKey: Guid(e0668bacb7792f94bbd36bdc8393b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0009.png using Guid(e0668bacb7792f94bbd36bdc8393b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b27eea79e499724589a6b5116437f142') in 0.022136 seconds
+  Time since last request: 0.008399 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_30.asset
+  artifactKey: Guid(8fd7ce8e5f384cd47a0d27fee44a1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_30.asset using Guid(8fd7ce8e5f384cd47a0d27fee44a1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c674ad5fd5cfc10498f6f02890625263') in 0.011447 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0007.png
-  artifactKey: Guid(ee2559facd943bf489ff5fd112aaf539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0007.png using Guid(ee2559facd943bf489ff5fd112aaf539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '712a5befa1ba3fa481dacc0eca0fd2d7') in 0.017166 seconds
+  Time since last request: 0.007352 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_34.asset
+  artifactKey: Guid(34331f621e255a147b66852778eac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_34.asset using Guid(34331f621e255a147b66852778eac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e59893e9797cbfe32015c41c3a244d51') in 0.011441 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0044.png
-  artifactKey: Guid(546669b7d35c24f43a96409acc036856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0044.png using Guid(546669b7d35c24f43a96409acc036856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '29e6f4da78a4a6859f30dc0fa44de108') in 0.018306 seconds
+  Time since last request: 0.007054 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_38.asset
+  artifactKey: Guid(8098aa22e8127f644b88006f2f819018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_38.asset using Guid(8098aa22e8127f644b88006f2f819018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7889c593d47e009a9aefe2b98bce7cf2') in 0.011887 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0008.png
-  artifactKey: Guid(3294cf86e79ef0546832179e4cce7603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0008.png using Guid(3294cf86e79ef0546832179e4cce7603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ca54fa7efc2d46fe9dcb9dbaf5ccbdbd') in 0.021982 seconds
+  Time since last request: 0.001441 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_41.asset
+  artifactKey: Guid(07431814a355f0e40a96e4075a14c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_41.asset using Guid(07431814a355f0e40a96e4075a14c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98c9b5e5b1c89c334c9d4d58eabedaf8') in 0.011020 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0028.png
-  artifactKey: Guid(56960ae96deeb1843b5ba7e9114ed915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0028.png using Guid(56960ae96deeb1843b5ba7e9114ed915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2676052e49dc48e07b5f561929ac0500') in 0.021894 seconds
+  Time since last request: 0.002896 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_44.asset
+  artifactKey: Guid(4a70be65abbcded43a257187d843c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_44.asset using Guid(4a70be65abbcded43a257187d843c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6bfa00af5b1ec2251d587881deee6dc3') in 0.010994 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0048.png
-  artifactKey: Guid(09d0b0e80537ebf4295c5902b539a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0048.png using Guid(09d0b0e80537ebf4295c5902b539a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0fba8f892214a493ed0c477a8224257e') in 0.021511 seconds
+  Time since last request: 0.002750 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_2.asset
+  artifactKey: Guid(3085c91a9081e584fb7e879ac76c9eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_2.asset using Guid(3085c91a9081e584fb7e879ac76c9eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4699e9dd7cd971407cacd4997b50c94c') in 0.010962 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.133172 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0002.png
-  artifactKey: Guid(c02027e10273f004eb20429c856a5f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0002.png using Guid(c02027e10273f004eb20429c856a5f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f9355e214b3cd5662157bf09a78b2472') in 0.017601 seconds
+  Time since last request: 0.003334 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_5.asset
+  artifactKey: Guid(01757a4546b5ecb46894344a9526588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_5.asset using Guid(01757a4546b5ecb46894344a9526588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f1b080741e97ee123574bcf1bc19ac9') in 0.011680 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0005.png
-  artifactKey: Guid(cb7726179a6cf4b4db5810cbe918814f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0005.png using Guid(cb7726179a6cf4b4db5810cbe918814f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6989f94c28b82a36338291ff7908f302') in 0.028378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0008.png
-  artifactKey: Guid(5c0fd536f8d66df408c8707c5690c033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0008.png using Guid(5c0fd536f8d66df408c8707c5690c033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '970ecb42b3c366f9bb499fdad00ca07f') in 0.017362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0010.png
-  artifactKey: Guid(e57b9a51743a7f246ade2a6166bc1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0010.png using Guid(e57b9a51743a7f246ade2a6166bc1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '23bf1dadfde210315275b6b39436376e') in 0.018150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0016.png
-  artifactKey: Guid(ce2d7ab24eaea3046b1963dc4ae15b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0016.png using Guid(ce2d7ab24eaea3046b1963dc4ae15b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0eeedc847a8b368fd2a814ea3096bad7') in 0.018293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0019.png
-  artifactKey: Guid(2e706eb28213eb643b7044c308c85362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0019.png using Guid(2e706eb28213eb643b7044c308c85362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd9a7c8dcd287aabf9b04a8238b6795f6') in 0.020033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0023.png
-  artifactKey: Guid(8b46c0a34de8b164b8568387da032bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0023.png using Guid(8b46c0a34de8b164b8568387da032bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9d7ec56a97f3c6e62b5e19bf42a8c1df') in 0.020053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0026.png
-  artifactKey: Guid(a2d623787be5e304098c8ba6af65d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0026.png using Guid(a2d623787be5e304098c8ba6af65d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6eb650fed5ddc8e8c1c84dc6092b56ee') in 0.018962 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0030.png
-  artifactKey: Guid(122aaefb75fc5f74c961bf676b310967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0030.png using Guid(122aaefb75fc5f74c961bf676b310967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4bd831ee195252ce787d31a384971b58') in 0.018978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0034.png
-  artifactKey: Guid(80adb7cb5089b864fab99b423f272f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0034.png using Guid(80adb7cb5089b864fab99b423f272f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3017b0a8285ccb406bda1cf5ed929de4') in 0.019363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0037.png
-  artifactKey: Guid(08a24e69266b7bd4c88bac8947884f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0037.png using Guid(08a24e69266b7bd4c88bac8947884f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd147923829f83ae45fa4e8d480374c66') in 0.018352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0040.png
-  artifactKey: Guid(fda6fc2b7da52a54085f5befe39a7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0040.png using Guid(fda6fc2b7da52a54085f5befe39a7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '70cf5bd9850e2f832521e0bba3b2e514') in 0.018454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0044.png
-  artifactKey: Guid(e054446163ae67b42b4b8b8de171897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0044.png using Guid(e054446163ae67b42b4b8b8de171897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b4821a70169e7bb7e137d825d9cc1d4e') in 0.019699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0046.png
-  artifactKey: Guid(b12977ac0db194c4ab5142d00b48e424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0046.png using Guid(b12977ac0db194c4ab5142d00b48e424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eb9f06d325264f9935ed9abfb8aa2288') in 0.018662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0051.png
-  artifactKey: Guid(24e58f98cd3b557469ea16d3b26646ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0051.png using Guid(24e58f98cd3b557469ea16d3b26646ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ab858883b9fb16cf3bb0ef552c9b56e') in 0.017200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0054.png
-  artifactKey: Guid(9faf9b1483e6c6c459403dd53747ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0054.png using Guid(9faf9b1483e6c6c459403dd53747ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '90a15a82482f574d30a58417d4b04a08') in 0.018485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0048.png
-  artifactKey: Guid(4b23efbb2d791be4fb6c0c059aa46973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0048.png using Guid(4b23efbb2d791be4fb6c0c059aa46973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '00dd9fee8ca4a66b071a12e7a449af8a') in 0.017972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0060.png
-  artifactKey: Guid(5275a438efe1230419995e95992a5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0060.png using Guid(5275a438efe1230419995e95992a5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '71d9bf8d18436971176bf5e1fd4ee961') in 0.018832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0064.png
-  artifactKey: Guid(52ad1b30d4925ee42ae9c581395ddaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0064.png using Guid(52ad1b30d4925ee42ae9c581395ddaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b0c6b9be4a57b9542b090f4bbbd4c52c') in 0.020019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0068.png
-  artifactKey: Guid(397216ee5b463f5489cc20df3561491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0068.png using Guid(397216ee5b463f5489cc20df3561491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0e7809e43871f5a93ab4db342db70f64') in 0.019730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0071.png
-  artifactKey: Guid(8bb74a9e588cfbe4cbea750ece243f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0071.png using Guid(8bb74a9e588cfbe4cbea750ece243f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c1c75a27c4ee966e6752c2ad7557bb19') in 0.021244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0066.png
-  artifactKey: Guid(ba6ac65b0ff26e34aa8147830942d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0066.png using Guid(ba6ac65b0ff26e34aa8147830942d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f350476281c914767deb781a852c68db') in 0.021564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0036.png
-  artifactKey: Guid(3108aff4937f40443a5b67107d3bb209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0036.png using Guid(3108aff4937f40443a5b67107d3bb209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '943d90c2d8da77022752b1d54ef64504') in 0.021935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0033.png
-  artifactKey: Guid(f6a89fcd3b4fc924abc908098cc6d3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0033.png using Guid(f6a89fcd3b4fc924abc908098cc6d3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b4a52ceb11c3a586aa9369f905a55c0f') in 0.023099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.467112 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0002.png
-  artifactKey: Guid(d6f922f60e5989d4281313a8c70b9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0002.png using Guid(d6f922f60e5989d4281313a8c70b9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '587fa90da0635cc338a9bc63209d60ce') in 0.031556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0007.png
-  artifactKey: Guid(b4d1941d08ce4f840bff1baca0d9f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0007.png using Guid(b4d1941d08ce4f840bff1baca0d9f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c4f3c3536a26f53bcf14ba34f2819e3b') in 0.020177 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_7.asset
+  artifactKey: Guid(a1e764bb64303c14b98a620c0b59c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_7.asset using Guid(a1e764bb64303c14b98a620c0b59c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36a9ff2e30795c5027dd4cd1a6e76879') in 0.011496 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0012.png
-  artifactKey: Guid(f72600bb27dc89d409c799f7e42755a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0012.png using Guid(f72600bb27dc89d409c799f7e42755a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd8269d0a0fe2f5c3c71054bc297460e0') in 0.019337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0011.png
-  artifactKey: Guid(812635d8fe843f442bf427ee61eadbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0011.png using Guid(812635d8fe843f442bf427ee61eadbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a966b3df01eb9d9090c5eb0b6703b3b1') in 0.018001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0018.png
-  artifactKey: Guid(989a1fcda9871ac4db2c99cf36c85458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0018.png using Guid(989a1fcda9871ac4db2c99cf36c85458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dce094d3b597700acab3df77c17680d3') in 0.019380 seconds
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_10.asset
+  artifactKey: Guid(e34e4554f1592404ab9900afdb78087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_10.asset using Guid(e34e4554f1592404ab9900afdb78087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fca1f1fc50bb12ca1caab7ec5f332fb') in 0.012154 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0021.png
-  artifactKey: Guid(9cdd0883d6815e64fa12e9d59ac35e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0021.png using Guid(9cdd0883d6815e64fa12e9d59ac35e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b45c5210e9566e539bcd70ae5ad8e4f0') in 0.018261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0023.png
-  artifactKey: Guid(f656ac254e1f3614485d59b2c6d42e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0023.png using Guid(f656ac254e1f3614485d59b2c6d42e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a7d3fa9816e5850b7ed6d07906c5671e') in 0.020841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0027.png
-  artifactKey: Guid(f20b346b618d92d4586d645869142e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0027.png using Guid(f20b346b618d92d4586d645869142e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6015fabae0994a964eebf40974fd6cbb') in 0.019321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0031.png
-  artifactKey: Guid(bbf656541ccaf204ca9a78a65430f1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0031.png using Guid(bbf656541ccaf204ca9a78a65430f1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1e979c7d74da298f14feefcf7d36204f') in 0.021084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0035.png
-  artifactKey: Guid(7513c777507075341a21f7a55d964057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0035.png using Guid(7513c777507075341a21f7a55d964057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0f5d0e311fdcaf5fac24c1d176278795') in 0.017289 seconds
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_15.asset
+  artifactKey: Guid(3029d6a293506cb41a289facfd88cf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_15.asset using Guid(3029d6a293506cb41a289facfd88cf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0be034a41f03723d769074a1333f7703') in 0.006857 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0037.png
-  artifactKey: Guid(b6c43dd8ec9d24a46bb7ee8da25c4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0037.png using Guid(b6c43dd8ec9d24a46bb7ee8da25c4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'baac3c455ddf5df9d5fbf8776b3db4d5') in 0.018658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0040.png
-  artifactKey: Guid(6a6d9fee2976a404d9beb96fb033de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0040.png using Guid(6a6d9fee2976a404d9beb96fb033de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a5495af5bb9d5d45881b2582b2963615') in 0.019838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0044.png
-  artifactKey: Guid(6dcc96c35f5c5c1478b797bf74f51c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0044.png using Guid(6dcc96c35f5c5c1478b797bf74f51c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '97f4b6920e8cfc143101c5729b8e3e5f') in 0.018701 seconds
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_16.asset
+  artifactKey: Guid(53ee903292f04824ca1f1482653b7f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_16.asset using Guid(53ee903292f04824ca1f1482653b7f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd82bcea8cf91e9f168dcf2e3edd852b5') in 0.011717 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0043.png
-  artifactKey: Guid(b1a41ec3edbce844d8a04f0ce0faed45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0043.png using Guid(b1a41ec3edbce844d8a04f0ce0faed45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5d9e0f304b80cf6e0fdc8cd2e5c4df78') in 0.019723 seconds
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_19.asset
+  artifactKey: Guid(fb182eb18ef66b247885af315c18db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_19.asset using Guid(fb182eb18ef66b247885af315c18db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23890383555469e3f576b2c8e3263559') in 0.011576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_22.asset
+  artifactKey: Guid(7f7c6e4b6b5214542bc66fb2ede0fa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_22.asset using Guid(7f7c6e4b6b5214542bc66fb2ede0fa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '460fad4e01f2ad7f56fd770a898837e6') in 0.005520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010653 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_25.asset
+  artifactKey: Guid(1ce27af779c7dd04db5b60a01e93f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_25.asset using Guid(1ce27af779c7dd04db5b60a01e93f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b10639757a89ca96ad443dfd10bec61b') in 0.011316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.848858 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_30.asset
+  artifactKey: Guid(f26e0acac0191c245a031f0b990415ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_30.asset using Guid(f26e0acac0191c245a031f0b990415ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46cd2d26ef7f43796ab7ebba9b12764c') in 0.010766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003495 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_33.asset
+  artifactKey: Guid(d2ca3f03e0fbfee478695bee25fd1bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_33.asset using Guid(d2ca3f03e0fbfee478695bee25fd1bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8bd0086795a3e1d930dcd1b0a879fdb') in 0.010901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002901 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_36.asset
+  artifactKey: Guid(8b3f2582f84fd4e46988db91c5a99032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_36.asset using Guid(8b3f2582f84fd4e46988db91c5a99032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34487476ba242a8503a81f84633e967f') in 0.011231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002583 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_39.asset
+  artifactKey: Guid(bce0f033de7b3374cb030a27475868e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_39.asset using Guid(bce0f033de7b3374cb030a27475868e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3585ab621f14b977e3d4159c179601c') in 0.027141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002127 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_45.asset
+  artifactKey: Guid(41bfa7a22b0a1084ba2f2dca2e73ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_45.asset using Guid(41bfa7a22b0a1084ba2f2dca2e73ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '892f4031e9501e4494a152836ae7a98f') in 0.011892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018623 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_48.asset
+  artifactKey: Guid(16fed9c63bdbd7049b2d07bc52825d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_48.asset using Guid(16fed9c63bdbd7049b2d07bc52825d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '830da891c4cf818cfcc9756a3398f96f') in 0.005992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022021 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_54.asset
+  artifactKey: Guid(888ff013319d6274d8eee981d184394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_54.asset using Guid(888ff013319d6274d8eee981d184394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '226e8c249ff9602f9fd67fb6446cb693') in 0.010908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003208 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_57.asset
+  artifactKey: Guid(e613e53035e039c4890b4d3affd645a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_57.asset using Guid(e613e53035e039c4890b4d3affd645a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eafa4a7071af825c6ed629b95cd4112e') in 0.005727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021989 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_63.asset
+  artifactKey: Guid(ba3fbc9645527b1489f16c0e83a76937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_63.asset using Guid(ba3fbc9645527b1489f16c0e83a76937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57974375ed80c0058339214779635bfc') in 0.011155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_66.asset
+  artifactKey: Guid(ad37919e78945274eb127801c1a90bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_66.asset using Guid(ad37919e78945274eb127801c1a90bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed925c4d2d0691c3274d3061eac6fe2d') in 0.011120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022483 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_73.asset
+  artifactKey: Guid(e886a0bc3b5118c4688266272dc7b6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_73.asset using Guid(e886a0bc3b5118c4688266272dc7b6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09bed8bc1829238a26956120c38565b4') in 0.011822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002478 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_76.asset
+  artifactKey: Guid(a59784795a5fe944bbd2e99d26f6cad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_76.asset using Guid(a59784795a5fe944bbd2e99d26f6cad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92101ca78c490ec3d80c083b67304f5b') in 0.012285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003241 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_79.asset
+  artifactKey: Guid(26d393e2df9f84d40989c3e6d716007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_79.asset using Guid(26d393e2df9f84d40989c3e6d716007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'edb4534d90d132e28c174336f86666df') in 0.011183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.108015 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_85.asset
+  artifactKey: Guid(7dc54b5c40d83064bb2b8edd94f7b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_85.asset using Guid(7dc54b5c40d83064bb2b8edd94f7b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0154b25f96199bc8ea687134748ffd8') in 0.010524 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0050.png
-  artifactKey: Guid(b0939b8f38f0343478feec47f4067c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0050.png using Guid(b0939b8f38f0343478feec47f4067c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b0e2808f506753ca724545315ed8cf3d') in 0.018908 seconds
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_90.asset
+  artifactKey: Guid(e47bd925d17324d4caf34d1d2a760e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_90.asset using Guid(e47bd925d17324d4caf34d1d2a760e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7af67fa14cbf1ffc16d69c57f115580c') in 0.007180 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0054.png
-  artifactKey: Guid(889ec5be39f2be04493a5d7c7e218129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0054.png using Guid(889ec5be39f2be04493a5d7c7e218129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dc24a3db98010fdadf3bebcc32ec2977') in 0.019792 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_91.asset
+  artifactKey: Guid(51fc757da5c09cd4aad03af5feb80276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_91.asset using Guid(51fc757da5c09cd4aad03af5feb80276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '188c70b225746620d043c7b128a78c3a') in 0.006219 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0055.png
-  artifactKey: Guid(96fd77fe1bebd9944b0139e96edbe77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0055.png using Guid(96fd77fe1bebd9944b0139e96edbe77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4954c72138a72739b220fd421c8f1488') in 0.017519 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_93.asset
+  artifactKey: Guid(bd028813fe358b040b061f720a3ced7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_93.asset using Guid(bd028813fe358b040b061f720a3ced7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f4d7c184ef1f0f3d26f47a2202686da') in 0.005633 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0060.png
-  artifactKey: Guid(a1b23cd9663b0f447bdb33793c0ae77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0060.png using Guid(a1b23cd9663b0f447bdb33793c0ae77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '60ada33b0e7b1996e0afaf6ac0b96bd3') in 0.019433 seconds
+  Time since last request: 0.006685 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_96.asset
+  artifactKey: Guid(68d0a3e45c64c0145936d7c4cbda2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_96.asset using Guid(68d0a3e45c64c0145936d7c4cbda2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9adb39cf9f0736a78ddeaacbee36e910') in 0.010983 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0065.png
-  artifactKey: Guid(32ef433413458584b85a736c69d791c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0065.png using Guid(32ef433413458584b85a736c69d791c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '92adbffd1e7311a801223ffb7eca8f1f') in 0.020250 seconds
+  Time since last request: 0.003194 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_99.asset
+  artifactKey: Guid(c558d3817703e1646accc8eb098d7698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_99.asset using Guid(c558d3817703e1646accc8eb098d7698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a907ebf5147ce241ad86eae73be1e201') in 0.011503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0064.png
-  artifactKey: Guid(96f62ec4bdb5fd440889694f4f360d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0064.png using Guid(96f62ec4bdb5fd440889694f4f360d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '175f27dfb8eb4ad1f6937c645789c4a9') in 0.021970 seconds
+  Time since last request: 0.016701 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_2.asset
+  artifactKey: Guid(a011ed0d58779144cbb147c2ac06380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_2.asset using Guid(a011ed0d58779144cbb147c2ac06380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a1bac88ed74ba1b63ca1ab29a4a18cd') in 0.011427 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0017.png
-  artifactKey: Guid(586bacbb360b29145978cfe7f49545e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0017.png using Guid(586bacbb360b29145978cfe7f49545e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c662da6a8aaedd5602aef08633fbeb93') in 0.022594 seconds
+  Time since last request: 0.002676 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_5.asset
+  artifactKey: Guid(15c7d5b34867ee3469d73d7945c555cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_5.asset using Guid(15c7d5b34867ee3469d73d7945c555cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1178d7e0cae40e274202f207f82764ff') in 0.011054 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0019.png
-  artifactKey: Guid(46ac52c956818364cbf91cf29a52fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0019.png using Guid(46ac52c956818364cbf91cf29a52fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.002732 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_8.asset
+  artifactKey: Guid(ef68c7e4002f9ea4e9bf339f6a0d5eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_8.asset using Guid(ef68c7e4002f9ea4e9bf339f6a0d5eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93ef5dfa4655c06bb4942d4152d76e96') in 0.011562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003354 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_11.asset
+  artifactKey: Guid(618a56c0cc2f50d4b82e71af8b4187ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_11.asset using Guid(618a56c0cc2f50d4b82e71af8b4187ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd028bb39ce9007b91fd76a3703ae7c0') in 0.011936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001804 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_14.asset
+  artifactKey: Guid(23c9d6306b574cc41bd8fb6293553f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_14.asset using Guid(23c9d6306b574cc41bd8fb6293553f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b187c315fc018e969cf7da67f35fe2a') in 0.011260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002505 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_17.asset
+  artifactKey: Guid(8a7b327dc8ebaab478dceaad882926d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_17.asset using Guid(8a7b327dc8ebaab478dceaad882926d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66f104dfc50c4cf7ffeae6f61c0582d1') in 0.005876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007715 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_20.asset
+  artifactKey: Guid(dffe8908f99130b4190abbfc5f866acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_20.asset using Guid(dffe8908f99130b4190abbfc5f866acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75b861ca58f8f572b14b9ac9dfff2f50') in 0.010922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003771 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_23.asset
+  artifactKey: Guid(eb33c6cd3762a1046880f54c1b4d2793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_23.asset using Guid(eb33c6cd3762a1046880f54c1b4d2793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a184ce191379129b6b772fac6c7d860') in 0.006264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021964 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_29.asset
+  artifactKey: Guid(3185a415739975e4eb2338bd61af93c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_29.asset using Guid(3185a415739975e4eb2338bd61af93c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63e8b9c2473d906a310903489a266e99') in 0.011806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002693 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_32.asset
+  artifactKey: Guid(d1a0297311507594e9ca5bfea6b867b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_32.asset using Guid(d1a0297311507594e9ca5bfea6b867b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4624a0f2993ed141e51d9c9a0c2d4d16') in 0.005765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028242 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_39.asset
+  artifactKey: Guid(a84c6598c0ab9674a9ca7509070481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_39.asset using Guid(a84c6598c0ab9674a9ca7509070481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4447c41634ddb1ba83daa988bc0b4cb7') in 0.010813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011658 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_44.asset
+  artifactKey: Guid(a88761ba71c92f541924a288ddaea441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_44.asset using Guid(a88761ba71c92f541924a288ddaea441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0670288b473b67e63ec44ae0fc6401b7') in 0.005883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030963 seconds.
+  path: Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_52.asset
+  artifactKey: Guid(24acdee9918825241af99785a79ffee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/GrassTiles_52.asset using Guid(24acdee9918825241af99785a79ffee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de42f8f907ea715390d75d991a1888f0') in 0.005944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 6.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.634 seconds
+Domain Reload Profiling: 2222ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (766ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4028 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (36.8 KB). Loaded Objects now: 4520.
+Memory consumption went from 143.4 MB to 143.4 MB.
+Total: 3.952700 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.109200 ms MarkObjects: 3.402600 ms  DeleteObjects: 0.069500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 421.134722 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Sprites/BlockFlash.png
+  artifactKey: Guid(a75445bb16444f14f96fdf9c734945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Sprites/BlockFlash.png using Guid(a75445bb16444f14f96fdf9c734945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6027ed8669903d87c41ece5fd6fa8f5b') in 0.020231 seconds
+ -> (artifact id: 'e5725a4bfdff6825baaf4a7af976dea8') in 0.096611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Sprites/HeroKnight.png
+  artifactKey: Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Sprites/HeroKnight.png using Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f33371f0ee43a7371cd9fbac9506140') in 0.342733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 463.907150 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset
+  artifactKey: Guid(a3f5e82170913a042b8a1a7ca021cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset using Guid(a3f5e82170913a042b8a1a7ca021cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebabbdf8c7bfbceeb0f631b12b240acc') in 0.017000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011230 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset
+  artifactKey: Guid(16944a65ef007594a9a62996602798ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset using Guid(16944a65ef007594a9a62996602798ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea938735f843e349611df738820ce14c') in 0.013280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D
+  artifactKey: Guid(9c497a4ce1f356b448c0dd3eca091d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D using Guid(9c497a4ce1f356b448c0dd3eca091d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd164d7284a1a844233e3b469eb54fab0') in 0.001017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset
+  artifactKey: Guid(50037ea5bf884e3438442ce9d2f0df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset using Guid(50037ea5bf884e3438442ce9d2f0df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e4b210f2b840a789e89c422ef2cf73d') in 0.011704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset
+  artifactKey: Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main persone/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset using Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b7af4fafc569fc55a4ee8f6d880fc69') in 0.015503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
