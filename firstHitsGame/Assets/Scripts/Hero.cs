@@ -9,6 +9,14 @@ public class Hero : MonoBehaviour
     [SerializeField] private float jumpForce = 10f;
     private bool isGrounded = false;
 
+
+    public bool isAttacking = false;
+    public bool isRecharged = true;
+
+    public Transform attackPosition;
+    public float attackRange;
+
+
     private Rigidbody2D rb;
     private Animator animation;
     private SpriteRenderer sprite;
@@ -22,6 +30,7 @@ public class Hero : MonoBehaviour
 
     private void Awake()
     {
+        isRecharged = true;
         rb = GetComponent<Rigidbody2D>();
         animation = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
@@ -66,11 +75,23 @@ public class Hero : MonoBehaviour
         if (!isGrounded) State = States.jumpAnimation;
     }
 
+    private void Attack()
+    {
+        if (isGrounded && isRecharged)
+        {
+            State = States.attackAnimation;
+            isAttacking = true;
+            isRecharged = false;
+
+        }
+    }
+
 }
 
 public enum States
 {
     HeroAnimation,
     runAnimation,
-    jumpAnimation
+    jumpAnimation,
+    attackAnimation
 }
