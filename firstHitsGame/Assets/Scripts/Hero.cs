@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Hero : MonoBehaviour
+public class Hero : AllEntity
 {
     [SerializeField] private float speed = 6f;
-    [SerializeField] private int livesCount = 5;
+    [SerializeField] private int health;
     [SerializeField] private float jumpForce = 10f;
     private bool isGrounded = false;
+
+    [SerializeField] private Image[] hearts;
+    [SerializeField] private Sprite aliveHeart;
+    [SerializeField] private Sprite deadHeart;
 
 
     public bool isAttacking = false;
@@ -33,11 +38,13 @@ public class Hero : MonoBehaviour
 
     private void Awake()
     {
-        isRecharged = true;
+        livesCount = 5;
+        health = livesCount;
         rb = GetComponent<Rigidbody2D>();
         animation = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         Instance = this;
+        isRecharged = true;
     }
 
     private void FixedUpdate()
@@ -55,6 +62,22 @@ public class Hero : MonoBehaviour
             Jump();
         if (Input.GetButtonDown("Fire1"))
             Attack();
+
+        if (health > livesCount)
+            health = livesCount;
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < health)
+                hearts[i].sprite = aliveHeart;
+            else
+                hearts[i].sprite = deadHeart;
+
+            if (i < livesCount)
+                hearts[i].enabled = true;
+            else
+                hearts[i].enabled = false;
+        }
     }
 
     private void Run()
@@ -123,12 +146,18 @@ public class Hero : MonoBehaviour
         isRecharged = true;
     }
 
-    public  void GetDamage()
+    public override void GetDamage()
     {
-        livesCount -= 1;
+        health -= 1;
         Debug.Log(livesCount);
+        if (health == 0)
+        {
+            foreach (var h in hearts)
+                h.sprite = deadHeart;
+            Die();
+        }
+            
 
-        
     }
 
 }
