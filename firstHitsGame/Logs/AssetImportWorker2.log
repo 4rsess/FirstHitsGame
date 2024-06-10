@@ -1,0 +1,479 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\РїСЂРёР»РѕР¶РµРЅРёСЏ\2022.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50905
+Successfully changed project path to: D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
+D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6680] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 3337502580 [EditorId] 3337502580 [Version] 1048832 [Id] WindowsEditor(7,Misha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6680] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 3337502580 [EditorId] 3337502580 [Version] 1048832 [Id] WindowsEditor(7,Misha) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 23.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
+[Subsystems] Discovering subsystems at path D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/РџСЂРѕРµРєС‚С‹ РЅР° Unity/FirstHitsGame/firstHitsGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/РїСЂРёР»РѕР¶РµРЅРёСЏ/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007856 seconds.
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 757ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.768 seconds
+Refreshing native plugins compatible for Editor in 6.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.907 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (907ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (61.8 KB). Loaded Objects now: 4507.
+Memory consumption went from 142.2 MB to 142.1 MB.
+Total: 3.961600 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.105500 ms MarkObjects: 3.383900 ms  DeleteObjects: 0.128300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 256442.055352 seconds.
+  path: Assets/Sprites/Monsters Creatures Fantasy/Sprites
+  artifactKey: Guid(4996574f823d4d4428b84c837beed802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters Creatures Fantasy/Sprites using Guid(4996574f823d4d4428b84c837beed802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5850de4b36dc00cff7eb9b6626340614') in 0.003282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.562294 seconds.
+  path: Assets/Sprites/round+enemy/Platformer Tileset - Pixelart Grasslands
+  artifactKey: Guid(5ddda599cc54b63419016da8b7dfa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/round+enemy/Platformer Tileset - Pixelart Grasslands using Guid(5ddda599cc54b63419016da8b7dfa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a660e07937f2ee9c25870824c7bff34') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.958959 seconds.
+  path: Assets/Sprites/round+enemy/Platformer Tileset - Pixelart Grasslands/Background
+  artifactKey: Guid(6adbfbab162026f4cb829740e1e90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/round+enemy/Platformer Tileset - Pixelart Grasslands/Background using Guid(6adbfbab162026f4cb829740e1e90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f151f77999287310def8bf681b3bf054') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041270 seconds.
+  path: Assets/Sprites/round+enemy/Platformer Tileset - Pixelart Grasslands/Background/Background1.png
+  artifactKey: Guid(9b45b88c36c56554ead974cff48f98bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/round+enemy/Platformer Tileset - Pixelart Grasslands/Background/Background1.png using Guid(9b45b88c36c56554ead974cff48f98bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2efad207b43bb5c6d989792d129507ff') in 0.136992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 123.004967 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px
+  artifactKey: Guid(b4400281ec6090949a94e469868f9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px using Guid(b4400281ec6090949a94e469868f9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41005d863babeabf131d408eadbf57b7') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.784370 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel Sky
+  artifactKey: Guid(d94fe28eb467a2f4eba1049870eeb052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel Sky using Guid(d94fe28eb467a2f4eba1049870eeb052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '394471443fd4caffae64565e9546ebf9') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028638 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel Sky/demo01_PixelSky_layer01.png
+  artifactKey: Guid(2b6d21890603e8441b3dadff70792455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel Sky/demo01_PixelSky_layer01.png using Guid(2b6d21890603e8441b3dadff70792455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e729dd2e60001929ba13c60a46121ab') in 0.024800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.697953 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer01.png
+  artifactKey: Guid(168d4c89695ec554d84b438bd781f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer01.png using Guid(168d4c89695ec554d84b438bd781f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf48c185312073b691257c43fad381b7') in 0.016376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer03.png
+  artifactKey: Guid(6fc934c28f4a61548a11c8c0767f4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer03.png using Guid(6fc934c28f4a61548a11c8c0767f4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a9d070ad318fe0a8a078a55f0282883') in 0.017891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.288281 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo01_PixelSky.png
+  artifactKey: Guid(0094c1ddec51f7a4db1d4a203ffdee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo01_PixelSky.png using Guid(0094c1ddec51f7a4db1d4a203ffdee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '756b3315253c4e26f8480cb4ad4e2569') in 0.015893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004503 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo03_PixelSky.png
+  artifactKey: Guid(3c522dfe25a7896468abb57f4bf0f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo03_PixelSky.png using Guid(3c522dfe25a7896468abb57f4bf0f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25dc319806864eedecf5207fa7030cd1') in 0.020867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png
+  artifactKey: Guid(f6cc67ab8870dda4dbc253117214730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png using Guid(f6cc67ab8870dda4dbc253117214730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac2dc0dedd0bb127185d616c235cd90b') in 0.022038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.819650 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo01_PixelSky_1920x1080.png
+  artifactKey: Guid(e7f9251d007ab1547bd1c48a700894c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo01_PixelSky_1920x1080.png using Guid(e7f9251d007ab1547bd1c48a700894c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6287ea372a76e6c790d4d7b740e28618') in 0.041331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo06_PixelSky_1920x1080.png
+  artifactKey: Guid(3de760602bae9d54dbd6e2463f455381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo06_PixelSky_1920x1080.png using Guid(3de760602bae9d54dbd6e2463f455381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8da52fd7da2d05255ee866f43c49815a') in 0.018050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo04_PixelSky_1920x1080.png
+  artifactKey: Guid(1efc14524702f8c4694fc4697517592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo04_PixelSky_1920x1080.png using Guid(1efc14524702f8c4694fc4697517592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b50027a823ff0ad9aa3d1c9f41bda5e') in 0.021273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 93.827529 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/URP
+  artifactKey: Guid(83022c9901b321e42a2307063bb25178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/URP using Guid(83022c9901b321e42a2307063bb25178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c6eb1b5efc8110bc42a79df4a47c92d') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065291 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/URP/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/URP/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb5736c29a56eb89177e67139e19a7ed') in 0.138166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 19.239293 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds
+  artifactKey: Guid(d1b62e27406bfcb4190907685be8ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds using Guid(d1b62e27406bfcb4190907685be8ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7970e5a0ddd56b872b65d738b73c4727') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036584 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 5 (Bonus).png
+  artifactKey: Guid(bfd6160ebe8904647b472b32d03645fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 5 (Bonus).png using Guid(bfd6160ebe8904647b472b32d03645fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd176986795747d5d809140a9ff224ed2') in 0.158948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.847801 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Scenes/Animated Pixel-Art Backgrounds Demo.unity
+  artifactKey: Guid(c83b82f617d453a47a7e198ea7db07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Scenes/Animated Pixel-Art Backgrounds Demo.unity using Guid(c83b82f617d453a47a7e198ea7db07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ebf4282b65e8f82c2862d6c5e8e397d') in 0.000540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 125.824114 seconds.
+  path: Assets/Pixel Skies DEMO/Scenes/demoscene.unity
+  artifactKey: Guid(1546ca44a4378cc4a954ce05fc80f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Scenes/demoscene.unity using Guid(1546ca44a4378cc4a954ce05fc80f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bed9e384612bea16b7b75964244e69de') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.609084 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0072.png
+  artifactKey: Guid(2c5e034986442db4aa85386b8c9c97e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0072.png using Guid(2c5e034986442db4aa85386b8c9c97e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8a16e1baeff0c153f80ec0c26fe6e63') in 0.015935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0074.png
+  artifactKey: Guid(72ec97016487f7c48887cbaa5b99c6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0074.png using Guid(72ec97016487f7c48887cbaa5b99c6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fce0b84f92ed75da34566753087b983d') in 0.017068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005458 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0075.png
+  artifactKey: Guid(77dd3c95326b38448af527c17b27095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0075.png using Guid(77dd3c95326b38448af527c17b27095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd70048cebe957a89b049f5380262b31d') in 0.044276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0079.png
+  artifactKey: Guid(db27dd9db1c7b9647865aa5faaccbeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0079.png using Guid(db27dd9db1c7b9647865aa5faaccbeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c05a39cc9928a11d931d4e029867964') in 0.018363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0087.png
+  artifactKey: Guid(6d94d3b59bd57444288fdde9273e9894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0087.png using Guid(6d94d3b59bd57444288fdde9273e9894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f176b89dfd97a89e63c32ad38fdc0fa3') in 0.019178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0084.png
+  artifactKey: Guid(890d508113712454fb9f9a3fb963b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0084.png using Guid(890d508113712454fb9f9a3fb963b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bbf5053788b7653e8e5914d9d489ab3') in 0.026596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0083.png
+  artifactKey: Guid(004e99acd26f8f74bbd91e0537289f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0083.png using Guid(004e99acd26f8f74bbd91e0537289f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9cf5f8cea8afc4dbe5e3495e5a24761') in 0.018224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0086.png
+  artifactKey: Guid(74e96082bc3cb4a44a80cc043eed81b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0086.png using Guid(74e96082bc3cb4a44a80cc043eed81b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afb3bfd7e11834be8f81b8e4e8c485a4') in 0.019097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0082.png
+  artifactKey: Guid(2fc983e73291095458c90c4e3d75cbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0082.png using Guid(2fc983e73291095458c90c4e3d75cbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38e7d8941a41e40fe4278263dbcfac1b') in 0.027534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
