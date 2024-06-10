@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform player;
     private Vector3 pos;
-    private float CameraSpeed = 3f;
+    private float CameraSpeed = 4f;
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
     {
         pos = player.position;
         pos.z = -10f;
-        pos.y += 2f;
+        pos.y += 2.5f;
         pos.x += 3f;
 
         transform.position = Vector3.Lerp(transform.position, pos, CameraSpeed * Time.deltaTime);
