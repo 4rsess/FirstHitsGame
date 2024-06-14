@@ -764,6 +764,7 @@ GameObject:
   - component: {fileID: 1052708495}
   - component: {fileID: 1052708494}
   - component: {fileID: 1052708493}
+  - component: {fileID: 1052708496}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -835,8 +836,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1397269031}
-        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
+      - m_Target: {fileID: 1052708496}
+        m_TargetAssemblyTypeName: Teleport, Assembly-CSharp
         m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
@@ -885,6 +886,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052708491}
   m_CullTransparentMesh: 1
+--- !u!114 &1052708496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052708491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b331f8616df2704f8d26a8aacc17047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTeleporter: {fileID: 0}
 --- !u!1 &1091877109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,9 +1027,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397269029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9dbd948429fa49b60a0ae093b41cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b331f8616df2704f8d26a8aacc17047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentTeleporter: {fileID: 0}
 --- !u!1 &1399575838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1582,7 @@ GameObject:
   - component: {fileID: 1802642641}
   - component: {fileID: 1802642640}
   - component: {fileID: 1802642639}
+  - component: {fileID: 1802642642}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -1638,9 +1654,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1397269031}
-        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
-        m_MethodName: ExitGame
+      - m_Target: {fileID: 1802642642}
+        m_TargetAssemblyTypeName: Teleport, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1688,6 +1704,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802642637}
   m_CullTransparentMesh: 1
+--- !u!114 &1802642642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802642637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b331f8616df2704f8d26a8aacc17047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTeleporter: {fileID: 0}
 --- !u!1 &2109598220
 GameObject:
   m_ObjectHideFlags: 0

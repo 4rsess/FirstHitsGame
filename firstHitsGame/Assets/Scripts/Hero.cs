@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Hero : AllEntity
 {
@@ -21,6 +22,8 @@ public class Hero : AllEntity
     public bool isDashing = false;
     private bool isLungeOnCooldown = false;
     private bool isCrouching = false;
+    private float timer = 0f;
+    private bool waiting= false;
 
 
     public Transform attackPosition;
@@ -59,53 +62,67 @@ public class Hero : AllEntity
 
     private void Update()
     {
-        if (isGrounded && !isAttacking && !isDashing && !isCrouching) 
-            State = States.HeroAnimation;
-        if (Input.GetButton("Horizontal") && !isAttacking && !isDashing)
-            Run();
-        if (isGrounded && Input.GetButtonDown("Jump") && !isAttacking && !isDashing && !isCrouching)
-            Jump();
-        if (Input.GetButtonDown("Fire1") && !isDashing && !isCrouching)
-            Attack();
-        if (Input.GetKeyDown(KeyCode.LeftControl) && !isDashing && !isLungeOnCooldown && !isCrouching)
-            StartCoroutine(Lunge());
-        if (Input.GetKey(KeyCode.S) && isGrounded && !isDashing && !isAttacking)
-            Crouch();
-        if (Input.GetKeyUp(KeyCode.S))
-            StandUp();
-
-
-        if (health > livesCount)
-            health = livesCount;
-        for (int i = 0; i < hearts.Length; i++)
+        if (waiting)
         {
-            if (i < health)
-                hearts[i].sprite = aliveHeart;
-            else
-                hearts[i].sprite = deadHeart;
+            timer += Time.deltaTime;
+            if (timer >= 1f) 
+            {
+                waiting = false;
+                timer = 0f;
+                Die();
+            }
 
-            if (i < livesCount)
-                hearts[i].enabled = true;
-            else
-                hearts[i].enabled = false;
         }
+        else 
+        {
+            if (isGrounded && !isAttacking && !isDashing && !isCrouching)
+                State = States.HeroAnimation;
+            if (Input.GetButton("Horizontal") && !isAttacking && !isDashing)
+                Run();
+            if (isGrounded && Input.GetButtonDown("Jump") && !isAttacking && !isDashing && !isCrouching)
+                Jump();
+            if (Input.GetButtonDown("Fire1") && !isDashing && !isCrouching)
+                Attack();
+            if (Input.GetKeyDown(KeyCode.LeftControl) && !isDashing && !isLungeOnCooldown && !isCrouching)
+                StartCoroutine(Lunge());
+            if (Input.GetKey(KeyCode.S) && isGrounded && !isDashing && !isAttacking)
+                Crouch();
+            if (Input.GetKeyUp(KeyCode.S))
+                StandUp();
+
+
+            if (health > livesCount)
+                health = livesCount;
+            for (int i = 0; i < hearts.Length; i++)
+            {
+                if (i < health)
+                    hearts[i].sprite = aliveHeart;
+                else
+                    hearts[i].sprite = deadHeart;
+
+                if (i < livesCount)
+                    hearts[i].enabled = true;
+                else
+                    hearts[i].enabled = false;
+            }
+        }
+        
     }
 
 
     //Move
     private void Run()
     {
-        if (isGrounded)
+        
+        if (isCrouching)
         {
-            if (isCrouching)
-            {
-                State = States.crouchAnimation;
-            }
-            else
-            {
-                State = States.runAnimation;
-            }
+            State = States.crouchAnimation;
         }
+        else
+        {
+            State = States.runAnimation;
+        }
+        
 
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
 
@@ -189,10 +206,14 @@ public class Hero : AllEntity
         {
             foreach (var h in hearts)
                 h.sprite = deadHeart;
-            Die();
+            waiting = true;
         }
     }
-    
+
+    public void Die() {
+
+        SceneManager.LoadScene("GameOver");
+    }
     //end move
 
 
