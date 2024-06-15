@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - Teleporter
+  - Hero
   layers:
   - Default
   - TransparentFX
@@ -40,9 +41,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Teleporter
+    uniqueID: 2737746687
+    locked: 0
+  - name: Player
+    uniqueID: 1303269473
+    locked: 0
+  - name: Hero
+    uniqueID: 1988555141
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: player
-    uniqueID: 1303269473
     locked: 0

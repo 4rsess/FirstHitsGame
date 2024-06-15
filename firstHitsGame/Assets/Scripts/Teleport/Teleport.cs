@@ -14,15 +14,19 @@ public class Teleport : MonoBehaviour
 
     private GameObject currentTeleporter;
 
+    void Update() {
+        if (currentTeleporter != null && Input.GetKeyDown(KeyCode.E)) {
+            LoadScene("TrainingLevel");
+        }
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Teleporter"))
         {
             currentTeleporter = collision.gameObject;
             Debug.Log("Вошел в зону телепортации.");
-            
-            LoadScene(currentTeleporter.name);
-            
+
         }
     }
 
