@@ -12,14 +12,6 @@ public class Teleport : MonoBehaviour
         SceneManager.LoadScene(nameScene);
     }
 
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E) && currentTeleporter!=null) 
-        {
-            LoadScene(currentTeleporter.name);
-        }
-    }
-
     private GameObject currentTeleporter;
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -27,6 +19,11 @@ public class Teleport : MonoBehaviour
         if (collision.CompareTag("Teleporter"))
         {
             currentTeleporter = collision.gameObject;
+            Debug.Log("Вошел в зону телепортации.");
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                LoadScene("TrainingLevel");
+            }
         }
     }
 
@@ -37,6 +34,7 @@ public class Teleport : MonoBehaviour
             if (collision.gameObject == currentTeleporter)
             {
                 currentTeleporter = null;
+                Debug.Log("Вышел из зоны телепортации.");
             }
         }
     }
@@ -53,7 +51,7 @@ public class Teleport : MonoBehaviour
 
     public void NewGame()
     {
-        LoadScene("StartNewGameLevel");
+        LoadScene("Lobby");
     }
 
     public void QuitGame()

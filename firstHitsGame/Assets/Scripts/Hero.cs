@@ -23,7 +23,7 @@ public class Hero : AllEntity
     private bool isLungeOnCooldown = false;
     private bool isCrouching = false;
     private float timer = 0f;
-    private bool waiting= false;
+    private bool waiting = false;
 
 
     public Transform attackPosition;
@@ -41,7 +41,7 @@ public class Hero : AllEntity
     {
         get { return (States)animation.GetInteger("state"); }
         set { animation.SetInteger("state", (int)value); }
-    
+
     }
 
     private void Awake()
@@ -65,7 +65,7 @@ public class Hero : AllEntity
         if (waiting)
         {
             timer += Time.deltaTime;
-            if (timer >= 1f) 
+            if (timer >= 1f)
             {
                 waiting = false;
                 timer = 0f;
@@ -73,8 +73,7 @@ public class Hero : AllEntity
             }
 
         }
-        else 
-        {
+        else {
             if (isGrounded && !isAttacking && !isDashing && !isCrouching)
                 State = States.HeroAnimation;
             if (Input.GetButton("Horizontal") && !isAttacking && !isDashing)
@@ -113,16 +112,17 @@ public class Hero : AllEntity
     //Move
     private void Run()
     {
-        
-        if (isCrouching)
+        if (isGrounded)
         {
-            State = States.crouchAnimation;
+            if (isCrouching)
+            {
+                State = States.crouchAnimation;
+            }
+            else
+            {
+                State = States.runAnimation;
+            }
         }
-        else
-        {
-            State = States.runAnimation;
-        }
-        
 
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
 
@@ -143,13 +143,13 @@ public class Hero : AllEntity
         float originalGravity = rb.gravityScale;
 
         rb.gravityScale = 0;
-        rb.velocity = new Vector2(0, 0); 
+        rb.velocity = new Vector2(0, 0);
 
         Vector2 lungeDirection = sprite.flipX ? Vector2.left : Vector2.right;
         float dashSpeed = lungeImpulse / rb.mass;
         rb.velocity = new Vector2(lungeDirection.x * dashSpeed, 0);
 
-        yield return new WaitForSeconds(0.35f); 
+        yield return new WaitForSeconds(0.35f);
 
         rb.gravityScale = originalGravity;
         rb.velocity = new Vector2(0, 0);
@@ -210,8 +210,11 @@ public class Hero : AllEntity
         }
     }
 
-    public void Die() {
-
+    public override void Die()
+    {
+        Debug.Log(PlayerPrefs.GetString("nowScene"));
+        PlayerPrefs.SetString("oldScene", PlayerPrefs.GetString("nowScene"));
+        PlayerPrefs.SetString("nowScene", "GameOver");
         SceneManager.LoadScene("GameOver");
     }
     //end move
