@@ -492,7 +492,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 21300170, guid: ae297123f091bbf4e8f1835eb98fb293, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -513,7 +513,7 @@ Transform:
   m_GameObject: {fileID: 550542231}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.83, y: -2.31, z: 0}
+  m_LocalPosition: {x: -7.87, y: -2.31, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -898,7 +898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b331f8616df2704f8d26a8aacc17047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTeleporter: {fileID: 0}
 --- !u!1 &1091877109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b331f8616df2704f8d26a8aacc17047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTeleporter: {fileID: 0}
 --- !u!1 &1399575838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,7 +1714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b331f8616df2704f8d26a8aacc17047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTeleporter: {fileID: 0}
 --- !u!1 &2109598220
 GameObject:
   m_ObjectHideFlags: 0

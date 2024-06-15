@@ -44,7 +44,7 @@ public class Teleport : MonoBehaviour
 
     public void RestartLevel() 
     {
-        LoadScene(PlayerPrefs.GetString("OldScene"));
+        LoadScene(PlayerPrefs.GetString("oldScene"));
     }
 
     public void MainMenu()

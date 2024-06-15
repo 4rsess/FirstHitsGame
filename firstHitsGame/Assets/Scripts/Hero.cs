@@ -65,7 +65,7 @@ public class Hero : AllEntity
         if (waiting)
         {
             timer += Time.deltaTime;
-            if (timer >= 1f)
+            if (timer >= 0.1f)
             {
                 waiting = false;
                 timer = 0f;
