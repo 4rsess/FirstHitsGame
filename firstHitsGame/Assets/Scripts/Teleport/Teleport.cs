@@ -20,10 +20,9 @@ public class Teleport : MonoBehaviour
         {
             currentTeleporter = collision.gameObject;
             Debug.Log("Вошел в зону телепортации.");
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                LoadScene("TrainingLevel");
-            }
+            
+            LoadScene(currentTeleporter.name);
+            
         }
     }
 
