@@ -82,7 +82,7 @@ public class Hero : AllEntity
                 Jump();
             if (Input.GetButtonDown("Fire1") && !isDashing && !isCrouching)
                 Attack();
-            if (Input.GetKeyDown(KeyCode.LeftControl) && !isDashing && !isLungeOnCooldown && !isCrouching)
+            if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && !isLungeOnCooldown && !isCrouching)
                 StartCoroutine(Lunge());
             if (Input.GetKey(KeyCode.S) && isGrounded && !isDashing && !isAttacking)
                 Crouch();
