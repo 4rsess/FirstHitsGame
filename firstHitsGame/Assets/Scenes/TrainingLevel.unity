@@ -59474,7 +59474,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Save&Exit
+  m_Text: Save&Home
 --- !u!222 &1354158379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -92985,11 +92985,11 @@ MonoBehaviour:
   health: 0
   jumpForce: 13
   hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 499854393}
+  - {fileID: 1571517542}
+  - {fileID: 1134898966}
+  - {fileID: 1350166241}
+  - {fileID: 662498198}
   aliveHeart: {fileID: 2110255427, guid: 497877696662aee47ba7434638be1ea7, type: 3}
   deadHeart: {fileID: 21300010, guid: 47d6d26076e81a34c863a03064a7fe77, type: 3}
   isAttacking: 0

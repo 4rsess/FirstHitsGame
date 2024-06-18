@@ -59826,11 +59826,11 @@ MonoBehaviour:
   health: 0
   jumpForce: 13
   hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1749774781}
+  - {fileID: 353741410}
+  - {fileID: 249896946}
+  - {fileID: 521127453}
+  - {fileID: 1303777984}
   aliveHeart: {fileID: 2110255427, guid: 497877696662aee47ba7434638be1ea7, type: 3}
   deadHeart: {fileID: 21300010, guid: 47d6d26076e81a34c863a03064a7fe77, type: 3}
   isAttacking: 0

@@ -8050,11 +8050,11 @@ MonoBehaviour:
   health: 0
   jumpForce: 13
   hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1987707112}
+  - {fileID: 2058277730}
+  - {fileID: 1118888323}
+  - {fileID: 1350384386}
+  - {fileID: 1925172478}
   aliveHeart: {fileID: 2110255427, guid: 497877696662aee47ba7434638be1ea7, type: 3}
   deadHeart: {fileID: 21300010, guid: 47d6d26076e81a34c863a03064a7fe77, type: 3}
   isAttacking: 0
