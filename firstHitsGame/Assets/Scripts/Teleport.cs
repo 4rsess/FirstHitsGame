@@ -16,7 +16,7 @@ public class Teleport : MonoBehaviour
 
     void Update() {
         if (currentTeleporter != null && Input.GetKeyDown(KeyCode.E)) {
-            LoadScene("TrainingLevel");
+            LoadScene(currentTeleporter.name);
         }
     }
 
