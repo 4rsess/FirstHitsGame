@@ -16,26 +16,31 @@ public class PauseMenu : MonoBehaviour
             {
                 Pause();
             }
+            else {
+                Resume();
+            }
         }
     }
 
     public void Resume()
     {
+        Debug.Log("Покинул меню паузы");
         pauseGameMenu.SetActive(false);
-        Time.timeScale = 1f;
+        
         PauseGame = false;
     }
 
     public void Pause()
     {
+        Debug.Log("Нажата шестерёнка");
         pauseGameMenu.SetActive(true);
-        Time.timeScale = 0f;
+        
         PauseGame = true;
     }
 
     public void LoadMenu()
     {
-        Time.timeScale = 1f;
+        
         SceneManager.LoadScene("StartMenu");
     }
 
