@@ -9,8 +9,15 @@ public class Hero : AllEntity
     [SerializeField] private float speed = 6f;
     [SerializeField] private int health;
     [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private AudioSource jumpSound;
+    [SerializeField] private AudioSource lungeSound;
+    [SerializeField] private AudioSource damageSound;
+    [SerializeField] private AudioSource dieSound;
+    [SerializeField] private AudioSource missAttackSound;
+    [SerializeField] private AudioSource hitAttackSound;
     private int lungeImpulse = 14;
     private bool isGrounded = false;
+
 
     [SerializeField] private Image[] hearts;
     [SerializeField] private Sprite aliveHeart;
@@ -65,7 +72,7 @@ public class Hero : AllEntity
         if (waiting)
         {
             timer += Time.deltaTime;
-            if (timer >= 0.1f)
+            if (timer >= 0.2f)
             {
                 waiting = false;
                 timer = 0f;
@@ -129,11 +136,13 @@ public class Hero : AllEntity
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
 
         sprite.flipX = dir.x < 0.0f;
+        
     }
 
     private void Jump()
     {
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        jumpSound.Play();
     }
 
     private IEnumerator Lunge()
@@ -149,11 +158,15 @@ public class Hero : AllEntity
         float dashSpeed = lungeImpulse / rb.mass;
         rb.velocity = new Vector2(lungeDirection.x * dashSpeed, 0);
 
+        lungeSound.Play();
+
         yield return new WaitForSeconds(0.35f);
 
         rb.gravityScale = originalGravity;
         rb.velocity = new Vector2(0, 0);
         isDashing = false;
+
+        
 
         yield return new WaitForSeconds(3f);
         isLungeOnCooldown = false;
@@ -208,10 +221,12 @@ public class Hero : AllEntity
                 h.sprite = deadHeart;
             waiting = true;
         }
+        damageSound.Play();
     }
 
     public override void Die()
     {
+        dieSound.Play();
         Debug.Log(PlayerPrefs.GetString("nowScene"));
         PlayerPrefs.SetString("oldScene", PlayerPrefs.GetString("nowScene"));
         PlayerPrefs.SetString("nowScene", "GameOver");
@@ -231,9 +246,15 @@ public class Hero : AllEntity
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, enemy);
 
+        if (colliders.Length == 0)
+            missAttackSound.Play();
+        else
+            hitAttackSound.Play();
+
         for (int i = 0; i < colliders.Length; i++)
         {
             colliders[i].GetComponent<AllEntity>().GetDamage();
+            StartCoroutine(EnemyOnAttack(colliders[i]));
         }
     }
     private void OnDrawGizmosSelected()
@@ -250,6 +271,14 @@ public class Hero : AllEntity
     {
         yield return new WaitForSeconds(0.5f);
         isRecharged = true;
+    }
+
+    private IEnumerator EnemyOnAttack(Collider2D enemy)
+    {
+        SpriteRenderer enemyColor = enemy.GetComponent<SpriteRenderer>();
+        enemyColor.color = new Color(1f, 0.29f, 0.15f);
+        yield return new WaitForSeconds(0.2f);
+        enemyColor.color = new Color(1, 1, 1);
     }
 
 }
