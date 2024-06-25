@@ -15842,7 +15842,7 @@ GameObject:
   - component: {fileID: 286383234}
   m_Layer: 0
   m_Name: MainHero
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29830,6 +29830,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  posZ: -10
+  posY: 2.5
+  posX: 0
 --- !u!1 &580285117
 GameObject:
   m_ObjectHideFlags: 0
