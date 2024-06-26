@@ -15,7 +15,7 @@ public class EvilSlug : AllEntity
         {
             Hero.Instance.GetDamage();
             livesCount--;
-            Debug.Log("у слизня " + livesCount + " жизней");
+
         }
 
         if (livesCount < 1)

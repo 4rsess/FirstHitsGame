@@ -6,15 +6,19 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform player;
     private Vector3 pos;
-    [SerializeField] private float CameraSpeed = 4f;
+    [SerializeField] private float cameraSpeed = 4f;
     [SerializeField] private float posZ;
     [SerializeField] private float posY;
-    [SerializeField] private float posX;
+    [SerializeField] private float posX = 3f;
+
+    private SpriteRenderer playerSpriteRenderer;
 
     private void Awake()
     {
         if (!player)
             player = FindObjectOfType<Hero>().transform;
+
+        playerSpriteRenderer = player.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -22,8 +26,16 @@ public class CameraController : MonoBehaviour
         pos = player.position;
         pos.z = posZ;
         pos.y += posY;
-        pos.x += posX;
 
-        transform.position = Vector3.Lerp(transform.position, pos, CameraSpeed * Time.deltaTime);
+        if (playerSpriteRenderer.flipX)
+        {
+            pos.x += 0f;
+        }
+        else
+        {
+            pos.x += posX;
+        }
+
+        transform.position = Vector3.Lerp(transform.position, pos, cameraSpeed * Time.deltaTime);
     }
 }
