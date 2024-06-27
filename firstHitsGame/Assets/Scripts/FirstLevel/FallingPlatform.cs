@@ -14,10 +14,10 @@ public class FallingPlatform : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name.Equals("MainHero"))
+        if (collision.gameObject.CompareTag("Hero"))
         {
-            Invoke("FallPlatform", 0.2f);
-            Destroy(gameObject, 1f); 
+            Invoke("FallPlatform", 0.1f);
+            Destroy(gameObject, 0.2f); 
         }
     }
 

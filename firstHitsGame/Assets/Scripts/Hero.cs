@@ -30,7 +30,8 @@ public class Hero : AllEntity
     private bool isLungeOnCooldown = false;
     private bool isCrouching = false;
     private float timer = 0f;
-    private bool waiting = false;
+    private bool waitingDie = false;
+    private bool isInvincible = false;
 
 
     public Transform attackPosition;
@@ -60,6 +61,10 @@ public class Hero : AllEntity
         sprite = GetComponent<SpriteRenderer>();
         Instance = this;
         isRecharged = true;
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            hearts[i] = GameObject.Find("Life ("+i+")").GetComponent<Image>();
+        }
     }
 
     private void FixedUpdate()
@@ -69,12 +74,12 @@ public class Hero : AllEntity
 
     private void Update()
     {
-        if (waiting)
+        if (waitingDie)
         {
             timer += Time.deltaTime;
             if (timer >= 0.2f)
             {
-                waiting = false;
+                waitingDie = false;
                 timer = 0f;
                 Die();
             }
@@ -212,16 +217,27 @@ public class Hero : AllEntity
 
     public override void GetDamage()
     {
-        health -= 1;
-        Debug.Log(livesCount);
+        if (!isInvincible) {
+            health -= 1;
+            Debug.Log(livesCount);
 
-        if (health == 0)
-        {
-            foreach (var h in hearts)
-                h.sprite = deadHeart;
-            waiting = true;
+            if (health == 0)
+            {
+                foreach (var h in hearts)
+                    h.sprite = deadHeart;
+                waitingDie = true;
+            }
+            damageSound.Play();
         }
-        damageSound.Play();
+    }
+
+    private IEnumerator InvincibilityCoroutine()
+    {
+        isInvincible = true;
+
+        yield return new WaitForSeconds(0.5f);
+
+        isInvincible = false;
     }
 
     public override void Die()
@@ -254,6 +270,7 @@ public class Hero : AllEntity
         for (int i = 0; i < colliders.Length; i++)
         {
             colliders[i].GetComponent<AllEntity>().GetDamage();
+
             StartCoroutine(EnemyOnAttack(colliders[i]));
         }
     }
