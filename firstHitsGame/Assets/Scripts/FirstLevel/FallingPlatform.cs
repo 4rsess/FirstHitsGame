@@ -16,8 +16,8 @@ public class FallingPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Hero"))
         {
-            Invoke("FallPlatform", 0.1f);
-            Destroy(gameObject, 0.2f); 
+            Invoke("FallPlatform", 0.3f);
+            Destroy(gameObject, 0.5f); 
         }
     }
 
