@@ -23,8 +23,6 @@ public class FlyingMonsters : AllEntity
         if (collision.gameObject == Hero.Instance.gameObject)
         {
             Hero.Instance.GetDamage();
-            livesCount--;
-
         }
 
         if (livesCount < 1)
