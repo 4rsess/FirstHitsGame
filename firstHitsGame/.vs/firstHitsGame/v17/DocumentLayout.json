@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|c:\\users\\serg\\documents\\github\\firsthitsgame\\firsthitsgame\\assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\assets\\scripts\\firstlevel\\openchestboots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstlevel\\openchestboots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|c:\\users\\serg\\documents\\github\\firsthitsgame\\firsthitsgame\\assets\\scripts\\leveltwo\\goblin\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltwo\\goblin\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\assets\\scripts\\leveltwo\\openchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltwo\\openchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\assets\\scripts\\firstlevel\\fallingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\assets\\scripts\\allentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\allentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\assets\\scripts\\teleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF350A-A00D-35A1-B248-28B994540C2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\LevelTwo\\Goblin\\Goblin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelTwo\\Goblin\\Goblin.cs",
+              "ToolTip": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\LevelTwo\\Goblin\\Goblin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelTwo\\Goblin\\Goblin.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:42:33.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Teleport.cs",
+              "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\Teleport.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Teleport.cs",
+              "ToolTip": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\Teleport.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Teleport.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwC4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:24:11.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenChestBoots.cs",
+              "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\FirstLevel\\OpenChestBoots.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstLevel\\OpenChestBoots.cs",
+              "ToolTip": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\FirstLevel\\OpenChestBoots.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FirstLevel\\OpenChestBoots.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:19:34.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpenChest.cs",
+              "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\LevelTwo\\OpenChest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelTwo\\OpenChest.cs",
+              "ToolTip": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\LevelTwo\\OpenChest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelTwo\\OpenChest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:09:55.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FallingPlatform.cs",
               "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\FirstLevel\\FallingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstLevel\\FallingPlatform.cs",
@@ -34,11 +102,12 @@
               "RelativeToolTip": "Assets\\Scripts\\FirstLevel\\FallingPlatform.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T15:38:22.1Z"
+              "WhenOpened": "2024-06-27T15:38:22.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AllEntity.cs",
               "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\AllEntity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AllEntity.cs",
@@ -46,17 +115,18 @@
               "RelativeToolTip": "Assets\\Scripts\\AllEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T15:23:51.442Z"
+              "WhenOpened": "2024-06-27T15:23:51.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\Hero.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Hero.cs",
               "ToolTip": "C:\\Users\\serg\\Documents\\GitHub\\firstHitsGame\\firstHitsGame\\Assets\\Scripts\\Hero.cs",
               "RelativeToolTip": "Assets\\Scripts\\Hero.cs",
-              "ViewState": "AQIAAP4AAAAAAAAAAAAqwBQBAAAnAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwDoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T14:51:00.972Z",
               "EditorCaption": ""

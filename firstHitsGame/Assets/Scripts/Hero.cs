@@ -54,9 +54,11 @@ public class Hero : AllEntity
 
     private void Awake()
     {
+
         livesCount = 5;
         health = livesCount;
         rb = GetComponent<Rigidbody2D>();
+        rb.sharedMaterial = Resources.Load<PhysicsMaterial2D>(PlayerPrefs.GetString("material"));
         animation = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         Instance = this;
