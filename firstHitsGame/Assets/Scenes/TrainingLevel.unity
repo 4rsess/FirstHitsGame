@@ -28628,18 +28628,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1729339132511051482, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729339132511051482, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729339132511051482, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729339132511051482, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -28691,62 +28679,14 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 291879658}
-    - target: {fileID: 4097849698147025131, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SliderMusic
-      objectReference: {fileID: 0}
-    - target: {fileID: 4097849698147025131, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MusicManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4097849698147025131, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6817883323936845774, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025245828872860515, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7460021851203177769, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
       propertyPath: m_Name
       value: Menu
-      objectReference: {fileID: 0}
-    - target: {fileID: 7884081908998880108, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 291879658}
-    - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ToggleMusic
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MusicManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370445394277265852, guid: 3b7eb7171fe21624e9e47424299c5f20, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66185,7 +66125,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '- a jerk towards the direction'
+  m_Text: '- the dash in the direction'
 --- !u!222 &1489438892
 CanvasRenderer:
   m_ObjectHideFlags: 0

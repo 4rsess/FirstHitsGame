@@ -45,6 +45,7 @@ public class Teleport : MonoBehaviour
     public void RestartLevel() 
     {
         LoadScene(PlayerPrefs.GetString("oldScene"));
+        Time.timeScale = 1f;
     }
 
     public void MainMenu()
