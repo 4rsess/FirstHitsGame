@@ -235,7 +235,7 @@ public class Hero : AllEntity
     {
         isInvincible = true;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(5f);
 
         isInvincible = false;
     }
@@ -270,7 +270,7 @@ public class Hero : AllEntity
         for (int i = 0; i < colliders.Length; i++)
         {
             colliders[i].GetComponent<AllEntity>().GetDamage();
-
+            //StartCoroutine(InvincibilityCoroutine());
             StartCoroutine(EnemyOnAttack(colliders[i]));
         }
     }
