@@ -16,7 +16,7 @@ public class FlyingMonsters : AllEntity
 
     void Update()
     {
-        sprite.flipX = aiPath.desiredVelocity.x <= 5f;
+        sprite.flipX = aiPath.desiredVelocity.x >= 0.01f;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
