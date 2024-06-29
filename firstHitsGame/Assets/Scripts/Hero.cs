@@ -65,7 +65,20 @@ public class Hero : AllEntity
         isRecharged = true;
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i] = GameObject.Find("Life ("+i+")").GetComponent<Image>();
+            hearts[i] = GameObject.Find("Life (" + i + ")").GetComponent<Image>();
+        }
+
+
+    }
+
+    private void Start()
+    {
+        Debug.Log(PlayerPrefs.GetString("nowScene"));
+        Debug.Log(PlayerPrefs.GetString("LevelOne"));
+        if (PlayerPrefs.GetString("nowScene") == "LevelOne1")
+        {
+            Debug.Log("1");
+            rb.transform.position = new Vector3(129f, -46f, 0f);
         }
     }
 
@@ -87,7 +100,8 @@ public class Hero : AllEntity
             }
 
         }
-        else {
+        else
+        {
             if (isGrounded && !isAttacking && !isDashing && !isCrouching)
                 State = States.HeroAnimation;
             if (Input.GetButton("Horizontal") && !isAttacking && !isDashing)
@@ -119,7 +133,7 @@ public class Hero : AllEntity
                     hearts[i].enabled = false;
             }
         }
-        
+
     }
 
 
@@ -143,7 +157,7 @@ public class Hero : AllEntity
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
 
         sprite.flipX = dir.x < 0.0f;
-        
+
     }
 
     private void Jump()
@@ -173,7 +187,7 @@ public class Hero : AllEntity
         rb.velocity = new Vector2(0, 0);
         isDashing = false;
 
-        
+
 
         yield return new WaitForSeconds(3f);
         isLungeOnCooldown = false;
@@ -219,7 +233,8 @@ public class Hero : AllEntity
 
     public override void GetDamage()
     {
-        if (!isInvincible) {
+        if (!isInvincible)
+        {
             health -= 1;
             Debug.Log(livesCount);
 

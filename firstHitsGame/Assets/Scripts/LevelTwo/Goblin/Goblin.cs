@@ -2,8 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.iOS;
-using static UnityEngine.GraphicsBuffer;
 
 public class Goblin : AllEntity
 {
@@ -39,7 +37,7 @@ public class Goblin : AllEntity
         animator.SetBool("walking", true);
         StartCoroutine(RunTimer());
 
-        livesCount = 10;
+        livesCount = 7;
     }
 
     void Update()
